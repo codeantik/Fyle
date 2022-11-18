@@ -1,0 +1,117 @@
+
+.repo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 20px auto;
+  background-color: #abc;
+}
+
+.repo-user-info {
+  border: 2px solid #ddd;
+  margin: 20px;
+  overflow-x: hidden;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  background-color: #def;
+}
+
+.repo-user-info-detail {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* background-color: green; */
+}
+
+.repo-user-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.repo-user-info p{
+    padding: 5px auto;
+    overflow-y: hidden;
+}
+
+.user-repo-details {
+  /* width: 100%; */
+  /* height: 100%; */
+  border: 2px solid #abc;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+
+  /* padding: 0; */
+  margin: 10px auto;
+  background-color: #fafafa;
+}
+
+.repo-info {
+  height: 200px;
+  width: 300px;
+  overflow: hidden;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  transition: all 0.3s ease;
+  padding: 10px auto;
+  margin: 10px;
+  border: 1.5px solid gray;
+  border-radius: 5px;
+}
+
+.repo-info > * {
+    padding: 10px;
+}
+
+.repo-info button {
+    /* padding: 5px; */
+    /* margin: 5px; */
+    background: none;
+    background-color: plum;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    padding: 2px 3px;
+    transition: all 0.3s ease;
+}
+
+.repo-info button:hover {
+    background-color: rgb(224, 123, 224);
+    cursor: pointer;
+}
+
+.repo-info p.description {
+    height: 30px;
+    width: 140px;
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    margin: 0 5px 0 5px;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000;
+}
+
+.repo-info:hover {
+    
+    background-color: #fafafa;
+    cursor: pointer;
+    /* border: 2px solid purple; */
+}

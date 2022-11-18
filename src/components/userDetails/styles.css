@@ -1,0 +1,16 @@
+
+.link {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    overflow-x: hidden;
+    /* word-wrap: break-word; */
+    /* word-break: break-all; */
+}
